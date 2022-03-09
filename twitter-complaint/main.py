@@ -4,10 +4,10 @@ from selenium.webdriver.common.by import By
 
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-CHROME_DRIVER_PATH = "D:\Programy\Selenium\chromedriver.exe"
-TWITTER_EMAIL = "dawiddawid1811@gmail.com"
-TWITTER_PASSWORD = "knt6x6SJhH6HZXy"
-TWITTER_USERNAME = "Dawid20342371"
+CHROME_DRIVER_PATH = "This is a place for your chrome driver path exe file"
+TWITTER_EMAIL = "This is a place for your email"
+TWITTER_PASSWORD = "This is a place for your password"
+TWITTER_USERNAME = "This is a place for your username"
 TWITTER_URL = "https://twitter.com/home"
 INTERNET_SPEED_URL = "https://www.speedtest.net/"
 
