@@ -72,8 +72,6 @@ class InternetSpeedTwitterBot:
         all_cookies = self.driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div[2]/div[2]')
         all_cookies.click()
         time.sleep(2)
-        print(f"Current download {self.current_down}\n")
-        print(f"Current upload {self.current_up}")
 
     def tweet_at_provider(self):
         tweet = self.driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/header/div/div/div/div[1]'
